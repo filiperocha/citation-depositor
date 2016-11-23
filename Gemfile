@@ -1,4 +1,6 @@
 source 'http://rubygems.org'
+ruby ENV['CUSTOM_RUBY_VERSION'] || '~> 2.3.2'
+
 gem 'sinatra', :require => 'sinatra/base'
 gem 'json'
 gem 'faraday'
